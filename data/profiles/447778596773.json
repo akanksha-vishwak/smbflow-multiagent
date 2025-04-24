@@ -1,0 +1,54 @@
+{
+  "customer_id": "447778596773",
+  "history": [
+    "same address",
+    "hi i want to order some items",
+    "5 packs of a4 sheets",
+    "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+    "can you send it to me on the address 4 park ave MA",
+    "no wait, i want to pick up rather",
+    "5pm works?",
+    "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+    "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+    "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+    "hi",
+    "hi",
+    "hi",
+    "fine!",
+    "I saw a cake on your Instagram, the pink one with gold edges. I want that exact design in 2 kg.",
+    "deliver to the same address"
+  ],
+  "last_extracted_info": {
+    "products": [
+      {
+        "name": "vanilla cupcakes",
+        "quantity": 12,
+        "details": "eggless"
+      },
+      {
+        "name": "chocolate cakes",
+        "quantity": 3,
+        "details": "one for gifting, wrapped nicely"
+      },
+      {
+        "name": "red velvet cake",
+        "quantity": 1,
+        "details": "no nuts"
+      },
+      {
+        "name": "black forest pastries",
+        "quantity": 2,
+        "details": "no nuts"
+      },
+      {
+        "name": "pink cake with gold edges",
+        "quantity": 1,
+        "details": "2 kg"
+      }
+    ],
+    "delivery_address": "same as previous",
+    "delivery_method": null,
+    "customer_details": {}
+  },
+  "known_preferences": {}
+}

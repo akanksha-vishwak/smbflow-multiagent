@@ -1,1 +1,1 @@
-# smbflow-multiagent
+# smbflow-llm-multi-agent

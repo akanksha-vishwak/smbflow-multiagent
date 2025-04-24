@@ -1,0 +1,1860 @@
+[
+  {
+    "timestamp": "2025-04-22 19:28:15",
+    "raw_timestamp_utc": 1745350095,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EwMzBEQkUyNzZCQzdEMzYyRTAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi",
+    "predicted_category": "greeting",
+    "priority": "low",
+    "extracted_info": {},
+    "context": [],
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:12:27",
+    "raw_timestamp_utc": 1745359947,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E1Q0Y1MDhFOTM4QzY2M0JBODgA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi",
+    "predicted_category": "greeting",
+    "priority": "low",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi"
+    ],
+    "conversation_status": "new",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:12:33",
+    "raw_timestamp_utc": 1745359953,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0ExODJGQTY2QTdBOTFEQjdFREYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "i want to order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [
+      "hi"
+    ],
+    "context": [
+      "hi"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:12:48",
+    "raw_timestamp_utc": 1745359968,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4NkQ3MzIxQTA5QTZGNkNFQzMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "3 notebooks",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "notebook",
+      "quantity": 3
+    },
+    "raw_context": [
+      "hi",
+      "i want to order"
+    ],
+    "context": [
+      "i want to order"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:12:53",
+    "raw_timestamp_utc": 1745359973,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E3MDg1NzBGQjUyREIxMTFGMzAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "and 5 blue pens",
+    "predicted_category": "update order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "blue pens",
+      "quantity": 5
+    },
+    "raw_context": [
+      "hi",
+      "i want to order",
+      "3 notebooks"
+    ],
+    "context": [
+      "i want to order",
+      "3 notebooks"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:13:14",
+    "raw_timestamp_utc": 1745359994,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4QzBBQkIxMDRGMTU4MUJBRjYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "my address is 14 park street",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "address": "14 park street"
+    },
+    "raw_context": [
+      "hi",
+      "i want to order",
+      "3 notebooks",
+      "and 5 blue pens"
+    ],
+    "context": [
+      "i want to order",
+      "3 notebooks",
+      "and 5 blue pens"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:13:28",
+    "raw_timestamp_utc": 1745360008,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FBMTMyMEFERDA3MjA0QUIyM0QA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "make that 5 notebooks",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "notebooks",
+      "quantity": 5
+    },
+    "raw_context": [
+      "hi",
+      "i want to order",
+      "3 notebooks",
+      "and 5 blue pens",
+      "my address is 14 park street"
+    ],
+    "context": [
+      "i want to order",
+      "3 notebooks",
+      "and 5 blue pens"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:14:14",
+    "raw_timestamp_utc": 1745360054,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFMjEyNEZEODkzRjZEQTdBRTMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "thanks",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {},
+    "raw_context": [
+      "i want to order",
+      "3 notebooks",
+      "and 5 blue pens",
+      "my address is 14 park street",
+      "make that 5 notebooks"
+    ],
+    "context": [
+      "3 notebooks",
+      "and 5 blue pens",
+      "make that 5 notebooks"
+    ],
+    "conversation_status": "close",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:14:35",
+    "raw_timestamp_utc": 1745360075,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E0MTA4RkRDODRBMkZGMTRFMTkA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "oh wait, also add scissors",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "scissors",
+      "quantity": 1
+    },
+    "raw_context": [
+      "3 notebooks",
+      "and 5 blue pens",
+      "my address is 14 park street",
+      "make that 5 notebooks",
+      "thanks"
+    ],
+    "context": [
+      "3 notebooks",
+      "make that 5 notebooks"
+    ],
+    "conversation_status": "continue",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 22:15:12",
+    "raw_timestamp_utc": 1745360112,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FCMTdEMEI1MjU2OTRGRjk0RTQA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "done",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [
+      "and 5 blue pens",
+      "my address is 14 park street",
+      "make that 5 notebooks",
+      "thanks",
+      "oh wait, also add scissors"
+    ],
+    "context": [
+      "and 5 blue pens",
+      "make that 5 notebooks",
+      "oh wait, also add scissors"
+    ],
+    "conversation_status": "close",
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 23:47:21",
+    "raw_timestamp_utc": 1745365641,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4RjY0NDk3MEM1QThEMjRCNTAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hey",
+    "predicted_category": "greeting",
+    "priority": "low",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hey"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 23:47:30",
+    "raw_timestamp_utc": 1745365650,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E5NkRDQjU4Rjc5QTAxNDNEODYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "i want ot place an order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [
+      "hey"
+    ],
+    "context": [
+      "hey"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-22 23:48:04",
+    "raw_timestamp_utc": 1745365684,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4QUIxNzUyNTAwOTBEMzA0RjMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "3 notebooks",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "notebook",
+      "quantity": 3
+    },
+    "raw_context": [
+      "hey",
+      "i want ot place an order"
+    ],
+    "context": [
+      "i want ot place an order"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 02:29:01",
+    "raw_timestamp_utc": 1745375341,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFOEQ4NTlBNzk4NkMyMTVCRUYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "and 5 blue pens",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "blue pens",
+      "quantity": 5
+    },
+    "raw_context": [],
+    "context": [
+      "and 5 blue pens"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 02:54:13",
+    "raw_timestamp_utc": 1745376853,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E5OTQxM0NDQzY0MDI5MzQ0RTIA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "my address is 14 park street",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "address": "14 park street"
+    },
+    "raw_context": [
+      "and 5 blue pens"
+    ],
+    "context": [
+      "and 5 blue pens"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 02:54:31",
+    "raw_timestamp_utc": 1745376871,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FGMTRGNDk3QjkwOTNFQzI2OUEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "thanks",
+    "predicted_category": "acknowledgement",
+    "priority": "low",
+    "extracted_info": {},
+    "raw_context": [
+      "and 5 blue pens",
+      "my address is 14 park street"
+    ],
+    "context": [
+      "and 5 blue pens",
+      "my address is 14 park street"
+    ],
+    "conversation_status": "close",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 02:54:37",
+    "raw_timestamp_utc": 1745376877,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E2RTMyOTI0RkZCQkUyMERCQTUA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "oh wait, also add scissors",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "scissors",
+      "quantity": 1
+    },
+    "raw_context": [
+      "and 5 blue pens",
+      "my address is 14 park street",
+      "thanks"
+    ],
+    "context": [
+      "and 5 blue pens"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 19:25:45",
+    "raw_timestamp_utc": 1745436345,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFQzIwMUU4MjgwMEFBMzBDRjYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "i want to order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "i want to order"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 19:27:16",
+    "raw_timestamp_utc": 1745436436,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E3NDBCRDU1Mjg1MTBDRTVFMjYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "some papers",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "papers",
+      "quantity": "some"
+    },
+    "raw_context": [],
+    "context": [
+      "i want to order",
+      "some papers"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "papers",
+      "quantity": "some"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 19:27:51",
+    "raw_timestamp_utc": 1745436471,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EzNkMzNUVFRTNFNkNGMDI3NzEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "a4 i think",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "a4 paper"
+    },
+    "raw_context": [],
+    "context": [
+      "i want to order",
+      "some papers",
+      "a4 i think"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "a4 paper"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-23 19:28:25",
+    "raw_timestamp_utc": 1745436505,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E0RDUyRUU5Mjc5OTcxNTFFMzkA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "paper",
+      "quantity": "5 packs",
+      "product_details": "A4"
+    },
+    "raw_context": [],
+    "context": [
+      "i want to order",
+      "some papers",
+      "a4 i think",
+      "5 packs"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "paper",
+      "quantity": "5 packs",
+      "product_details": "A4"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 04:15:34",
+    "raw_timestamp_utc": 1745468134,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E5QkJDODI4RjEzMkEzMUUzMTAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i am here to place an order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order"
+    ],
+    "conversation_status": "new",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:03:41",
+    "raw_timestamp_utc": 1745471021,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFMkYzNUUzOTYwM0NGRTYwQUIA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "can you send it to me on the address 4 park ave MA",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "address": "4 park ave MA"
+    },
+    "raw_context": [],
+    "context": [
+      "can you send it to me on the address 4 park ave MA"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "address": "4 park ave MA"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:04:05",
+    "raw_timestamp_utc": 1745471045,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E0ODVBNUI1RUZCNDBGMEI3OUEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs of a4 sheets",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "a4 sheets",
+      "quantity": "5 packs"
+    },
+    "raw_context": [],
+    "context": [
+      "can you send it to me on the address 4 park ave MA",
+      "5 packs of a4 sheets"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "a4 sheets",
+      "quantity": "5 packs"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:04:10",
+    "raw_timestamp_utc": 1745471050,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFNzcwNDkwRDM4NEIyQjNDNzMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "100 blue pens too",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "blue pens",
+      "quantity": "100"
+    },
+    "raw_context": [],
+    "context": [
+      "can you send it to me on the address 4 park ave MA",
+      "5 packs of a4 sheets",
+      "100 blue pens too"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "blue pens",
+      "quantity": "100"
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:07:15",
+    "raw_timestamp_utc": 1745471235,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EzQTA5QjVERERCMzcyRjg4RDcA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i am here to place an order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order"
+    ],
+    "conversation_status": "new",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:10:38",
+    "raw_timestamp_utc": 1745471438,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4RUREMDI4Qzk1OTY1Njc3NkMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i am here to place an order",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order"
+    ],
+    "conversation_status": "new",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:10:49",
+    "raw_timestamp_utc": 1745471449,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E1N0Q1QTJENzg1QzZDREE4NzUA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs of a4 sheets",
+    "predicted_category": "new order",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "a4 sheets",
+      "quantity": 5
+    },
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order",
+      "5 packs of a4 sheets"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "a4 sheets",
+      "quantity": 5
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:11:01",
+    "raw_timestamp_utc": 1745471461,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EzRjEyQjgwNTAzNTBDNDY1RDMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "100 blue pens too",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "product": "blue pens",
+      "quantity": 100
+    },
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order",
+      "5 packs of a4 sheets",
+      "100 blue pens too"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {
+      "product": "blue pens",
+      "quantity": 100
+    },
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:21:04",
+    "raw_timestamp_utc": 1745472064,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FBNERBNDE3RTA5NjNFQThCMzUA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i am here to place an order",
+    "predicted_category": "greeting",
+    "priority": "low",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:21:23",
+    "raw_timestamp_utc": 1745472083,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FCNUIyRTk4RkM2NEZFRTVCQjIA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs of a4 sheets",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "a4 sheets",
+          "quantity": 5
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "hi i am here to place an order",
+      "5 packs of a4 sheets"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:22:51",
+    "raw_timestamp_utc": 1745472171,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFRjA0RTAwRkIzQUJFMDhEQTcA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "100 blue pens too",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "blue pens",
+          "quantity": 200
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "100 blue pens too"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:23:17",
+    "raw_timestamp_utc": 1745472197,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E4NEZCQkY4NkNCOUI2ODlFMzcA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i want to order some items",
+    "predicted_category": "initiate_order",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "blue pens",
+          "quantity": 100
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "100 blue pens too",
+      "hi i want to order some items"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:25:36",
+    "raw_timestamp_utc": 1745472336,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FEOTc1QTRBQUU3NTk0RkVBNEEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i want to order some items",
+    "predicted_category": "initiate_order",
+    "priority": "high",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:25:58",
+    "raw_timestamp_utc": 1745472358,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E2NEU1MjFFRDI1RjA4MkNFRDQA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs of a4 sheets",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:26:18",
+    "raw_timestamp_utc": 1745472378,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFRUZGOEVGQURGMjlDNTFFREYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "actualluy make it 10",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:26:29",
+    "raw_timestamp_utc": 1745472389,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E3MzhCOUJCRUVCOTBFRThGOEMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "100 blue pens too",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item": "blue pens",
+          "quantity": 100
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:26:40",
+    "raw_timestamp_utc": 1745472400,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E2MjIxQTI1MTE0NDc4ODJGQ0QA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "can you send it to me on the address 4 park ave MA",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item": "blue pens",
+          "quantity": 100
+        }
+      ],
+      "shipping_address": "4 park ave MA"
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too",
+      "can you send it to me on the address 4 park ave MA"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:27:02",
+    "raw_timestamp_utc": 1745472422,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0ExQjk2NTU5MTdCNEQ4ODc0RkIA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "that\u2019s all",
+    "predicted_category": "complete_order",
+    "priority": "high",
+    "extracted_info": {
+      "items": [
+        {
+          "item_name": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item_name": "blue pens",
+          "quantity": 100
+        }
+      ],
+      "shipping_address": "4 park ave MA"
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too",
+      "can you send it to me on the address 4 park ave MA",
+      "that\u2019s all"
+    ],
+    "conversation_status": "complete",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:27:08",
+    "raw_timestamp_utc": 1745472428,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E1MkUyRjI5OUVBQzQ5MEQ1MTQA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "no wait, i want to pick up rather",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item": "blue pens",
+          "quantity": 100
+        }
+      ],
+      "delivery_method": "pickup",
+      "shipping_address": "4 park ave MA"
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too",
+      "can you send it to me on the address 4 park ave MA",
+      "that\u2019s all",
+      "no wait, i want to pick up rather"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:27:36",
+    "raw_timestamp_utc": 1745472456,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E5MENCMDc4MUI3RDNBNzhFOTIA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5pm works?",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item": "blue pens",
+          "quantity": 100
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5:00PM"
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too",
+      "can you send it to me on the address 4 park ave MA",
+      "that\u2019s all",
+      "no wait, i want to pick up rather",
+      "5pm works?"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:28:57",
+    "raw_timestamp_utc": 1745472537,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FFNzY0MzE4QUE3OUZBQTVGN0MA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "Hi, I'd like to order 2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 10
+        },
+        {
+          "item": "blue pens",
+          "quantity": 100
+        },
+        {
+          "item": "chocolate truffle cake",
+          "quantity": 2,
+          "details": "Happy Birthday Riya"
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5pm",
+      "address": "4 park ave MA",
+      "delivery_date": "tomorrow evening"
+    },
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "actualluy make it 10",
+      "100 blue pens too",
+      "can you send it to me on the address 4 park ave MA",
+      "that\u2019s all",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Hi, I'd like to order 2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them."
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:35:40",
+    "raw_timestamp_utc": 1745472940,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FBQ0MzQUE0MTM1NjM5MTc5QzAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "same address",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": null,
+    "raw_context": [],
+    "context": [
+      "same address"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:36:23",
+    "raw_timestamp_utc": 1745472983,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EzRUMyQkU2QUJDQTU1QzM4NDUA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi i want to order some items",
+    "predicted_category": "initiate_order",
+    "priority": "high",
+    "extracted_info": {},
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:36:46",
+    "raw_timestamp_utc": 1745473006,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E5RjUyMkQ1NjRGRUJDRDJGQjYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5 packs of a4 sheets",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        }
+      ]
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:37:32",
+    "raw_timestamp_utc": 1745473052,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EzMDYyOUJDMTJBN0YxM0Y2QTYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "item": "chocolate truffle cake",
+          "quantity": 2,
+          "instructions": "Happy Birthday Riya",
+          "delivery_date": "tomorrow evening"
+        }
+      ],
+      "delivery_instructions": "tomorrow evening"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them."
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:38:16",
+    "raw_timestamp_utc": 1745473096,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FBQzVFQzY4QUI5N0I5NDQ5NTgA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "can you send it to me on the address 4 park ave MA",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "name": "chocolate truffle cake",
+          "quantity": 2,
+          "specifications": "Happy Birthday Riya"
+        }
+      ],
+      "delivery_address": "4 park ave MA",
+      "delivery_date": "tomorrow evening",
+      "delivery_method": "send"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:38:48",
+    "raw_timestamp_utc": 1745473128,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E0Q0IwOTg3Q0NDRTdFQzA1NTEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "no wait, i want to pick up rather",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "item": "chocolate truffle cakes",
+          "quantity": 2,
+          "details": "Happy Birthday Riya on one"
+        }
+      ],
+      "delivery_method": "pickup",
+      "address": "4 park ave MA",
+      "delivery_time": "tomorrow evening"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:39:18",
+    "raw_timestamp_utc": 1745473158,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E2NzM4MkQxMzMzQTQ1QTA0QkEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "5pm works?",
+    "predicted_category": "confirmation",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "name": "chocolate truffle cakes",
+          "quantity": 2,
+          "special_instructions": "Happy Birthday Riya"
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5:00 PM"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:39:58",
+    "raw_timestamp_utc": 1745473198,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FEMzIzNjJGNTEzNTgxQzNBNzgA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+    "predicted_category": "update",
+    "priority": "moderate",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "name": "chocolate truffle cakes",
+          "quantity": 2,
+          "instructions": "Happy Birthday Riya",
+          "delivery_date": "tomorrow evening"
+        },
+        {
+          "name": "vanilla cupcakes",
+          "quantity": 12,
+          "instructions": "eggless"
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5pm"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless."
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:40:20",
+    "raw_timestamp_utc": 1745473220,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FDRTMxODYzQjczMDBGMzRFNjgA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "item": "chocolate truffle cakes",
+          "quantity": 2,
+          "instructions": "Happy Birthday Riya",
+          "delivery_date": "tomorrow evening"
+        },
+        {
+          "item": "vanilla cupcakes",
+          "quantity": 12,
+          "instructions": "eggless"
+        },
+        {
+          "item": "chocolate cakes",
+          "quantity": 3,
+          "instructions": "one for gifting, wrap it nicely"
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5pm",
+      "address": "4 park ave MA"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely."
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:41:03",
+    "raw_timestamp_utc": 1745473263,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0ExRDc5NjNCNkY4MTlFNDM1REEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "name": "chocolate truffle cake",
+          "quantity": 2,
+          "notes": "Happy Birthday Riya"
+        },
+        {
+          "name": "vanilla cupcakes",
+          "quantity": 12,
+          "notes": "eggless"
+        },
+        {
+          "name": "chocolate cake",
+          "quantity": 3,
+          "notes": "for gifting, wrap it nicely"
+        },
+        {
+          "name": "red velvet cake",
+          "quantity": 1,
+          "notes": "no nuts"
+        },
+        {
+          "name": "black forest pastry",
+          "quantity": 2,
+          "notes": "no nuts"
+        }
+      ],
+      "delivery_option": "pickup",
+      "pickup_time": "5pm",
+      "address": "4 park ave MA",
+      "delivery_time": "tomorrow evening"
+    },
+    "raw_context": [],
+    "context": [
+      "same address",
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:41:34",
+    "raw_timestamp_utc": 1745473294,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FCNTQxQkJBOTY1ODkxOTM2MTMA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi",
+    "predicted_category": "irrelevant",
+    "priority": "low",
+    "extracted_info": null,
+    "raw_context": [],
+    "context": [
+      "hi i want to order some items",
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:41:39",
+    "raw_timestamp_utc": 1745473299,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0EyN0FFMDcxQkI4MzRFMjc4OTAA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi",
+    "predicted_category": "irrelevant",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "a4 sheets",
+          "quantity": 5
+        },
+        {
+          "item": "chocolate truffle cakes",
+          "quantity": 2,
+          "instructions": "write 'Happy Birthday Riya' on one of them",
+          "delivery_date": "tomorrow evening"
+        },
+        {
+          "item": "vanilla cupcakes",
+          "quantity": 12,
+          "instructions": "eggless"
+        },
+        {
+          "item": "chocolate cakes",
+          "quantity": 3,
+          "instructions": "wrap one nicely"
+        },
+        {
+          "item": "red velvet cake",
+          "quantity": 1,
+          "instructions": "no nuts"
+        },
+        {
+          "item": "black forest pastries",
+          "quantity": 2,
+          "instructions": "no nuts"
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5pm"
+    },
+    "raw_context": [],
+    "context": [
+      "5 packs of a4 sheets",
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi",
+      "hi"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:41:41",
+    "raw_timestamp_utc": 1745473301,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E3N0Q5Q0VEQkI4NzI3OTQzOEQA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "hi",
+    "predicted_category": "irrelevant",
+    "priority": "low",
+    "extracted_info": null,
+    "raw_context": [],
+    "context": [
+      "2 chocolate truffle cakes for tomorrow evening. Please write 'Happy Birthday Riya' on one of them.",
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi",
+      "hi",
+      "hi"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:41:45",
+    "raw_timestamp_utc": 1745473305,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0E2MkYxNUQwMTEyQTg4RDMxNUEA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "fine!",
+    "predicted_category": "irrelevant",
+    "priority": "low",
+    "extracted_info": null,
+    "raw_context": [],
+    "context": [
+      "can you send it to me on the address 4 park ave MA",
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi",
+      "hi",
+      "hi",
+      "fine!"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:42:38",
+    "raw_timestamp_utc": 1745473358,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FERkU5MjNCN0ZBQzA1QkMxOEUA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "I saw a cake on your Instagram, the pink one with gold edges. I want that exact design in 2 kg.",
+    "predicted_category": "update",
+    "priority": "high",
+    "extracted_info": {
+      "products": [
+        {
+          "item": "vanilla cupcakes",
+          "quantity": 12,
+          "specifications": [
+            "eggless"
+          ]
+        },
+        {
+          "item": "chocolate cakes",
+          "quantity": 3,
+          "specifications": [
+            "for gifting",
+            "wrapped nicely"
+          ]
+        },
+        {
+          "item": "red velvet cake",
+          "quantity": 1,
+          "specifications": [
+            "no nuts"
+          ]
+        },
+        {
+          "item": "black forest pastries",
+          "quantity": 2,
+          "specifications": [
+            "no nuts"
+          ]
+        },
+        {
+          "item": "pink cake with gold edges",
+          "quantity": 1,
+          "specifications": [
+            "exact design from Instagram",
+            "2 kg"
+          ]
+        }
+      ],
+      "delivery_method": "pickup",
+      "pickup_time": "5pm"
+    },
+    "raw_context": [],
+    "context": [
+      "no wait, i want to pick up rather",
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi",
+      "hi",
+      "hi",
+      "fine!",
+      "I saw a cake on your Instagram, the pink one with gold edges. I want that exact design in 2 kg."
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  },
+  {
+    "timestamp": "2025-04-24 05:43:20",
+    "raw_timestamp_utc": 1745473400,
+    "message_id": "wamid.HBgMNDQ3Nzc4NTk2NzczFQIAEhgUM0FCMUQ4NjMxMDZGQzg3MDFGOEYA",
+    "message_type": "text",
+    "customer_id": "447778596773",
+    "sender": "447778596773",
+    "customer_name": "Akanksha",
+    "message": "deliver to the same address",
+    "predicted_category": "update",
+    "priority": "low",
+    "extracted_info": {
+      "products": [
+        {
+          "name": "vanilla cupcakes",
+          "quantity": 12,
+          "details": "eggless"
+        },
+        {
+          "name": "chocolate cakes",
+          "quantity": 3,
+          "details": "one for gifting, wrapped nicely"
+        },
+        {
+          "name": "red velvet cake",
+          "quantity": 1,
+          "details": "no nuts"
+        },
+        {
+          "name": "black forest pastries",
+          "quantity": 2,
+          "details": "no nuts"
+        },
+        {
+          "name": "pink cake with gold edges",
+          "quantity": 1,
+          "details": "2 kg"
+        }
+      ],
+      "delivery_address": "same as previous",
+      "delivery_method": null,
+      "customer_details": {}
+    },
+    "raw_context": [],
+    "context": [
+      "5pm works?",
+      "Can I get 1 dozen of your vanilla cupcakes? Make sure they are eggless.",
+      "I want 3 boxes of chocolate cakes , one for gifting so please wrap it nicely.",
+      "Send me 1 red velvet cake and 2 black forest pastries. No nuts, please",
+      "hi",
+      "hi",
+      "hi",
+      "fine!",
+      "I saw a cake on your Instagram, the pink one with gold edges. I want that exact design in 2 kg.",
+      "deliver to the same address"
+    ],
+    "conversation_status": "continue",
+    "order_memory": {},
+    "business_phone_number": "15556454320",
+    "business_phone_id": "574048935800997"
+  }
+]
